@@ -1,0 +1,60 @@
+body {
+	background-color: #3b3e42;
+}
+
+.menu {
+	background: #2a6fcc;
+	width: 100%;
+}
+.nav {
+	background: #466da0;
+}
+
+.nav > li {
+	padding: 20px;
+}
+
+.nav > li > a {
+	color: #000;
+}
+
+.img-circle {
+    width: 180px;
+    height: 180px;
+    margin-top: 100px;
+    border: solid 5px #fff;
+}
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.digitando {
+  color: green;
+}
+
+pre {
+	width: 500px;
+}
