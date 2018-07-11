@@ -1,6 +1,3 @@
-<?php // CÓDIGO BÁSICO DA API DO IP
-	$ip = $_SERVER["REMOTE_ADDR"];
- ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -59,7 +56,7 @@
     $(function() {
         $(".digitando").typed({
             strings: [
-                "hax0rlib@breakware~: Hello, I'm Hax0rlib welcome to my site!<br>hax0rlib@breakware~: analyze system ... (100%)<br>hax0rlib@breakware~: analyze panel ... (100%)<br>hax0rlib@breakware~: download of data ... (100%)<br>hax0rlib@breakware~: you server IP: <?php echo $ip; ?><br>hax0rlib@breakware~: SYSTEM DEVELOPED BY <b>BREAKWARE SQUAD !</b>"
+                "hax0rlib@breakware~: Hello, I'm Hax0rlib welcome to my site!<br>hax0rlib@breakware~: analyze system ... (100%)<br>hax0rlib@breakware~: analyze panel ... (100%)<br>hax0rlib@breakware~: download of data ... (100%)<br>hax0rlib@breakware~: you server IP: <?php echo $_SERVER["REMOTE_ADDR"]; ?><br>hax0rlib@breakware~: SYSTEM DEVELOPED BY <b>BREAKWARE SQUAD !</b>"
             ],
             typeSpeed: 30,
             backSpeed: 0
